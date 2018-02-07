@@ -6,6 +6,7 @@ A "javaFX-Bean" is like a JavaBean, but its fileds or property are defined as "P
 
 Here is a simple example:
 
+```
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -22,8 +23,7 @@ public class Employee {
     public StringProperty lastnameProperty() {
         return lastname;
     }
-
-
+    
     /**
      * @return the lastname as String
      */
